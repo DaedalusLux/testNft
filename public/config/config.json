@@ -1,0 +1,18 @@
+{
+  "CONTRACT_ADDRESS": "0x58497c2359516161d4341Be69f9Fb695d4c8373b",
+  "SCAN_LINK": "https://rinkeby.etherscan.io/address/0xe981307405Ae292cD1852c4F7Bdb0e65Fc9f5Bbb",
+  "NETWORK": {
+    "NAME": "ethereum",
+    "SYMBOL": "eth",
+    "ID": 4
+  },
+  "NFT_NAME": "test",
+  "SYMBOL": "ts",
+  "MAX_SUPPLY": 1000,
+  "WEI_COST": 300000000000000000,
+  "DISPLAY_COST": 0.3,
+  "GAS_LIMIT": 285000,
+  "MARKETPLACE": "Opeansea",
+  "MARKETPLACE_LINK": "https://opensea.io/collection/nerdy-coder-clones",
+  "SHOW_BACKGROUND": true
+}
