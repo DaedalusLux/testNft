@@ -12,7 +12,7 @@ contract GiveAway is ERC721, ERC721Enumerable, Ownable {
     uint256 public Price = 0.1 ether;
     uint256 public maxMintable = 1;
     bool mintIsOpen = true;
-    string private data = "";
+
     
   
     
@@ -34,8 +34,7 @@ contract GiveAway is ERC721, ERC721Enumerable, Ownable {
        }
   
 
-    function mint(uint256 mintAmount, string memory data ) public payable {
-      string memory data = "";
+    function mint(uint256 mintAmount, string memory  ) public payable {
         uint256 supply = totalSupply();
         require(mintIsOpen, "Mint is closed");
     require(mintAmount > 0);
