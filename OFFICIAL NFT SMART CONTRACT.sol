@@ -11,7 +11,7 @@ contract GiveAway is ERC721, ERC721Enumerable, Ownable {
     uint256 internal Supply;
     uint256 public Price = 0.1 ether;
     uint256 public maxMintable = 1;
-    bool mintIsOpen = true;
+    bool mintIsOpen = false;
 
     
   
